@@ -1,4 +1,4 @@
-# level 0 
+# level 01
 ## Description
 http://www.pythonchallenge.com/pc/def/map.html
 
