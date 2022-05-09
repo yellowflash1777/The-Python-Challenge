@@ -1,2 +1,2 @@
 # The Python Challenge
-Repo for pythonchallenge.com
+Repo for http://www.pythonchallenge.com
