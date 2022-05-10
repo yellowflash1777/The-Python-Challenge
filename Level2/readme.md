@@ -3,6 +3,12 @@
 http://www.pythonchallenge.com/pc/def/ocr.html
 
 <br>
+<br>
+
+<img src="http://www.pythonchallenge.com/pc/def/ocr.jpg" width="500px">
+
+<br>
+
 It is written that : <br>
 
 "recognize the characters. maybe they are in the book,
