@@ -30,5 +30,8 @@ To solve this we create a function according to our codition <br>
  HINT : we need to collect all the middle letters of the format xXXX<u>x</u>XXXx
 where X is any upercase letter and x is any lowercase letter <br>
 
-Go to  
+After solving this we get the solution 'linkedlist' <br>
+Now replace it on  url <br>
+
+Go to  http://www.pythonchallenge.com/pc/def/linkedlist.html
 for level 4
