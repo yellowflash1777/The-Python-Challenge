@@ -30,16 +30,19 @@ end. 400 times is more than enough."
 So according to the statement solution is to replace the nothing= query in the url with next nothng that is given ,and repeat this process exactly 400 times.  <br> 
 
 For example: <br>
-When we click the image the current nothing is 12345 which is found in the url and the next nothing is 44827, so we need to replac the 12345 to 44827 in the url changing it to <a herf= "http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=44827 " > http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=44827 and so on...</a> <br>
+When we click the image the current nothing is 12345 which is found in the url and the next nothing is 44827, so we need to replac the 12345 to 44827 in the url changing it to <a herf= "http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=44827 " > http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=44827</a> and so on... <br>
 <br>
 
 To solve this we need the help of urllib library create a function according to our codition <br>
  <br>
- HINT : we need to collect all the middle letters of the format xXXX<u>x</u>XXXx
-where X is any upercase letter and x is any lowercase letter <br>
+ So after passing 12345 as nothing and then going on loop for 400 times the next nothing came out to be : 16044 and when we update this on url, that is <a herf= "http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=16044 " > http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=16044</a> it says <br>
+ "Yes. Divide by two and keep going."
+ <br>
+ So we divide 16044 by 2 which is 8022 and use this as our next nothing and now pass this in our function for 400 times which gave us our next nothing as 66831 <br>
+ Now replace is as next nothing in url.
 
-After solving this we get the solution 'linkedlist' <br>
+After xhanging url to nothing =66831 that is, <a herf= "http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=66831 " > http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=66831</a> it says 'peak.html' <br>
 Now replace it on  url <br>
 
-Go to  http://www.pythonchallenge.com/pc/def/linkedlist.html
-for level 4
+Go to  http://www.pythonchallenge.com/pc/def/peak.html
+for level 5
